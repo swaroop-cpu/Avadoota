@@ -536,6 +536,7 @@ import {
 import { Bar, Pie } from "react-chartjs-2";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend, CategoryScale, LinearScale, BarElement } from "chart.js";
 import { useNavigate } from "react-router-dom"; // For routing
+import Footer from "./Footer";
 
 ChartJS.register(ArcElement, Tooltip, Legend, CategoryScale, LinearScale, BarElement);
 
@@ -668,6 +669,7 @@ const ExpenseList = () => {
           </Box>
         </Box>
       </Box>
+<Footer/>
     </Box>
   );
 };
